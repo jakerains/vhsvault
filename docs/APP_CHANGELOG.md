@@ -1,5 +1,6 @@
 ## Latest Updates
 
+v1.4.0 - Improved camera interface with better scanning experience
 v1.3.0 - Fixed camera scanning dependencies and improved reliability
 v1.2.5 - Added camera scanning for easy movie addition
 v1.2.4 - Enhanced offline support and tracking

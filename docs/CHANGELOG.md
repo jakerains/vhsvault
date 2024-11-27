@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0] - 2024-03-19
+
+### Enhanced
+- Camera Interface Improvements
+  - Added fullscreen camera view with proper aspect ratio
+  - Implemented visual scanning guidelines for barcode and text modes
+  - Added haptic feedback on successful scans
+  - Added audio feedback with success beep
+  - Improved scanning feedback messages
+  - Added visual processing state with animation
+  - Optimized camera settings for better scanning
+  - Added clear instructions for each scanning mode
+
 ## [1.3.0] - 2024-03-19
 
 ### Fixed
