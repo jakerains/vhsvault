@@ -7,20 +7,22 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="VHS Vault" />
+    <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self';
+        connect-src 'self' https://www.omdbapi.com https://www.googleapis.com https://*.supabase.co;
+        script-src 'self' 'unsafe-inline' 'unsafe-eval';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data: https://* http://*;
+        media-src 'self' blob: data:;
+        worker-src 'self' blob:;
+        frame-src 'self';" 
+    />
     <link rel="apple-touch-icon" href="https://placehold.co/180x180/9333EA/ffffff.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="https://placehold.co/152x152/9333EA/ffffff.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://placehold.co/180x180/9333EA/ffffff.png" />
     <link rel="apple-touch-icon" sizes="167x167" href="https://placehold.co/167x167/9333EA/ffffff.png" />
     <meta name="theme-color" content="#9333EA" />
     <meta name="description" content="Your Digital VHS Collection - A retro-styled movie collection manager" />
-    <!-- iPhone Splash Screen Images -->
-    <link rel="apple-touch-startup-image" href="https://placehold.co/2048x2732/9333EA/ffffff.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" href="https://placehold.co/1668x2388/9333EA/ffffff.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" href="https://placehold.co/1536x2048/9333EA/ffffff.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" href="https://placehold.co/1668x2224/9333EA/ffffff.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" href="https://placehold.co/2048x2732/9333EA/ffffff.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" href="https://placehold.co/1125x2436/9333EA/ffffff.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" />
-    <link rel="apple-touch-startup-image" href="https://placehold.co/1242x2688/9333EA/ffffff.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" />
     <title>VHS Vault - Your Digital VHS Collection</title>
   </head>
   <body>
